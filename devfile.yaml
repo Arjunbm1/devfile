@@ -7,3 +7,6 @@ components:
       image: golang
       memoryLimit: 512Mi
       command: ['sleep', 'infinity']
+attributes:
+  .che/che-theia-plugins.yaml: |
+    - id: redhat/java/latest
